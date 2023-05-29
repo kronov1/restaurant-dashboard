@@ -1,0 +1,51 @@
+{
+    "ordersCards":[
+        {
+            "title":"238",
+            "subtitle":"Total Pedidos"
+            
+        },
+        {
+            "title":"50",
+            "subtitle":"Pedidos Local"
+            
+        },
+        {
+            "title":"50",
+            "subtitle":"Pedidos Delivery"
+            
+        }
+    ],
+    "ordersHistory": {
+        "tableTitle": "Histórico de Pedidos",
+        "columnsData": [{
+            "title": "ID",
+            "dataIndex": "id",
+            "key": "id"
+        },
+        {
+            "title": "Cliente",
+            "dataIndex": "customer",
+            "key": "customer"
+        },
+        {
+            "title": "Pedido",
+            "dataIndex": "order",
+            "key": "order"
+        },
+        {
+            "title": "Preço",
+            "dataIndex": "price",
+            "key": "price"
+        },
+        {
+            "title": "Data",
+            "dataIndex": "date",
+            "key": "date"
+        }],
+        "contentData":[{
+            "id":"1",
+            "customer":"João"
+        }]
+    }
+}

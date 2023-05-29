@@ -1,0 +1,79 @@
+
+
+
+
+{
+    "cards":[
+        {
+            "title":"R$2,800",
+            "subtitle":"Total Faturamento"
+            
+        },
+        {
+            "title":"238",
+            "subtitle":"Total Pedidos"
+            
+        },
+        {
+            "title":"160",
+            "subtitle":"Clientes Cadastrados"
+            
+        }
+    ],
+    "mostCustomers": {
+    
+            "boardTitle": "Clientes que mais compraram",
+            "content": [
+                {   
+                    "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                    "name": "João",
+                    "orders": "70 Pedidos"
+                },
+                {
+                    "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                    "name": "Maria",
+                    "orders": "65 Pedidos"
+                },
+                {
+                    "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                    "name": "José",
+                    "orders": "65 Pedidos"
+                }
+            ]
+    },
+    "mostDishes":{
+        "boardTitle": "Pratos mais vendidos do dia",
+        "content": [
+            {
+                "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                "name": "Pizza",
+                "orders": "Pedido 50x",
+                "price": "R$ 29,99"
+            },
+            {
+                "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                "name": "Pizza",
+                "orders": "Pedido 50x",
+                "price": "R$ 50,00"
+            },
+            {
+                "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                "name": "Pizza",
+                "orders": "Pedido 50x",
+                "price": "R$ 50,00"
+            },
+            {
+                "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                "name": "Pizza",
+                "orders": "Pedido 50x",
+                "price": "R$ 50,00"
+            },
+            {
+                "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
+                "name": "Pizza",
+                "orders": "Pedido 50x",
+                "price": "R$ 50,00"
+            }
+        ]
+    }
+}
