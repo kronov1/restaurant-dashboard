@@ -8,3 +8,6 @@
 - CSS
 - JavaScript
 - React
+
+## 🏷️Layout
+[Figma](https://www.figma.com/file/J2cPOggICvC7lPwbpekZLL/Restaurante?type=design&node-id=18%3A11&t=68rKTHxyDkjtLVOH-1)
