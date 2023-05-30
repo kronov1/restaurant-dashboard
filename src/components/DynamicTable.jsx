@@ -3,42 +3,24 @@ import React from 'react';
 import { Space, Table, Tag } from 'antd';
 
 
-export const DynamicTable = ({ tableTitle, columnsData, dataContent }) => {
+export const DynamicTable = ({ tableTitle, columnsData, contentData }) => {
 
-  console.log(columnsData)
+  const columns = columnsData.map(item => ({ 
+      title: item.title,
+      dataIndex: item.dataIndex, 
+      key: item.key,
+    }))
+  
+  const data = contentData.map((item,index) => ({ 
+      ...item,
+      key: index,
+  })) 
 
-  const columns = [
-    {
-      title: 'name',
-      dataIndex: 'name',
-      key: 'name',
-    },
-    {
-      title: 'age',
-      dataIndex: 'age',
-      key: 'age',
-    }
-];
-const data = [
-  {
-    key: '1',
-    name: 'John Brown',
-    age: 32,
-  },
-  {
-    key: '2',
-    name: 'Jim Green',
-    age: 42,
-   
-  },
-  {
-    key: '3',
-    name: 'Joe Black',
-    age: 32,
-  },
-];
 
 return(
-    <Table columns={columns} dataSource={data} />
+    <>
+      {tableTitle ?? <h3>{tableTitle}</h3>}
+      <Table columns={columns} dataSource={data} />
+    </>
 )
 }

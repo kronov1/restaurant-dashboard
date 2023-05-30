@@ -1,6 +1,8 @@
 import React, { useState }from 'react'
 import { Table } from 'antd';
 import menuData from '../../data/Menu.json'
+import { Button, Space } from 'antd';
+import { PageContainer,SpacerStyled } from '../../assets/css/componets.styled';
 
 export const Menu = () => {
   const [data, setData] = useState(menuData);
@@ -60,12 +62,21 @@ export const Menu = () => {
   data.forEach((item) => console.log(item.id));
   
   return (
-    <Table
-      columns={columns}
-      rowKey={(record) => record.id}
-      dataSource={data}
-      pagination={tableParams.pagination}
-      onChange={handleTableChange}
+    <PageContainer>
+      
+      <Table
+        columns={columns}
+        rowKey={(record) => record.id}
+        dataSource={data}
+        pagination={tableParams.pagination}
+        onChange={handleTableChange}
     />
+      <SpacerStyled wrap direction="vertical">
+        <Button type="primary">Adicionar</Button>
+        <Button type="primary">Editar</Button>
+        <Button type="primary">Excluir</Button>
+      </SpacerStyled>
+    </PageContainer>
+   
   )
 }

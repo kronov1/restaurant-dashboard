@@ -1,12 +1,12 @@
 import React from 'react'
 import { PageTitle } from '../../components/PageTitle'
-import { CardContainer } from '../../assets/css/componets.styled'
+import { CardContainer, ColumnContainer, LeftColumn, RightColumn } from '../../assets/css/componets.styled'
 import { CardDefault } from '../../components/CardDefault'
 import { DynamicTable } from '../../components/DynamicTable'
 import  ordersData from '../../data/Orders.json'
 export const Orders = () => {
-  const { ordersCards, ordersHistory } = ordersData
-
+  const { ordersCards, ordersHistory, bestSellingDishes } = ordersData
+  console.log(bestSellingDishes)
   return (
     <>
     <PageTitle title="Pedidos" />
@@ -15,6 +15,14 @@ export const Orders = () => {
         <CardDefault key={index} title={card.title} subtitle={card.subtitle} icon={card.icon} />
       ))}
     </CardContainer>
+    <ColumnContainer>
+      <LeftColumn>
+        {/* inserir o gráfico aqui */}
+      </LeftColumn>
+      <RightColumn>
+        <DynamicTable {...bestSellingDishes}/>
+      </RightColumn>
+    </ColumnContainer>
     <DynamicTable {...ordersHistory}/>
     </>
     
