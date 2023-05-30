@@ -20,6 +20,7 @@
             
         }
     ],
+    
     "mostCustomers": {
     
             "boardTitle": "Clientes que mais compraram",
@@ -37,7 +38,7 @@
                 {
                     "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
                     "name": "José",
-                    "orders": "65 Pedidos"
+                    "orders": "30 Pedidos"
                 }
             ]
     },
@@ -47,32 +48,32 @@
             {
                 "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
                 "name": "Pizza",
-                "orders": "Pedido 50x",
+                "orders": "Pedido 10x",
                 "price": "R$ 29,99"
             },
             {
                 "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
-                "name": "Pizza",
-                "orders": "Pedido 50x",
-                "price": "R$ 50,00"
+                "name": "Bolo",
+                "orders": "Pedido 20x",
+                "price": "R$ 19,00"
             },
             {
                 "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
-                "name": "Pizza",
-                "orders": "Pedido 50x",
-                "price": "R$ 50,00"
+                "name": "Cachorro quente",
+                "orders": "Pedido 5x",
+                "price": "R$ 10,00"
             },
             {
                 "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
-                "name": "Pizza",
-                "orders": "Pedido 50x",
-                "price": "R$ 50,00"
+                "name": "Milkshake",
+                "orders": "Pedido 3x",
+                "price": "R$ 17,50"
             },
             {
                 "icon": "https://jailson-personal.s3.sa-east-1.amazonaws.com/images/personal-website/IMG_20230520_214137.jpg",
-                "name": "Pizza",
-                "orders": "Pedido 50x",
-                "price": "R$ 50,00"
+                "name": "Hamburguer",
+                "orders": "Pedido 28x",
+                "price": "R$ 16,00"
             }
         ]
     }

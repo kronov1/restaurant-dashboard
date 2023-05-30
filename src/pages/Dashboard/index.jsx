@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { PageTitle } from '../../components/PageTitle'
 import { CardContainer, ColumnContainer, LeftColumn, RightColumn } from '../../assets/css/componets.styled'
