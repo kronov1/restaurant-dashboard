@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 import { theme } from './style';
-import { Row } from 'antd';
+import { Row, Space} from 'antd';
 
 
 
@@ -11,7 +11,16 @@ export const PageTitleStyle = styled.h1`
     color: ${theme.colors.primary};
 `
 
+export const PageContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+`
 
+
+export const SpacerStyled = styled(Space)`
+    margin: 0 20px;
+`
 export const CardContainer = styled.div`
     display: flex;
     flex-direction: row;
