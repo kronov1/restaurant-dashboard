@@ -1,6 +1,7 @@
 # restaurant-dashboard
 # 🦛 POTA 
-![Dashboard](https://github.com/Jailsonsdsj/restaurant-dashboard/assets/111470667/7a57d6ba-a40a-4ade-8950-0680395a37a5)
+![Dashboard](https://github.com/Jailsonsdsj/restaurant-dashboard/assets/111470667/b5048e0a-16c2-4ab5-9258-2a7014b27c7b)
+
 
 # 💻Tecnologias usadas:
 
