@@ -4,6 +4,8 @@ import { CardContainer, ColumnContainer, LeftColumn, RightColumn } from '../../a
 import { CardDefault } from '../../components/CardDefault'
 import dashboardData  from '../../data/Dashboad.json'
 import { TableContent } from '../../components/TableContent'
+import { Chart } from '../../components/Chart'
+import { Chart1 } from '../../components/Chart1'
 
 
 export const Dashboard = () => {
@@ -21,9 +23,11 @@ export const Dashboard = () => {
       
       <ColumnContainer>
           <LeftColumn>
+            <Chart/>
             <TableContent {...mostCustomers} />
           </LeftColumn>
           <RightColumn>
+            <Chart1/>
             <TableContent {...mostDishes} />
           </RightColumn>
       </ColumnContainer>

@@ -4,6 +4,7 @@ import { CardContainer, ColumnContainer, LeftColumn, RightColumn } from '../../a
 import { CardDefault } from '../../components/CardDefault'
 import { DynamicTable } from '../../components/DynamicTable'
 import  ordersData from '../../data/Orders.json'
+import { Chart1 } from '../../components/Chart1'
 export const Orders = () => {
   const { ordersCards, ordersHistory, bestSellingDishes } = ordersData
   console.log(bestSellingDishes)
@@ -17,7 +18,7 @@ export const Orders = () => {
     </CardContainer>
     <ColumnContainer>
       <LeftColumn>
-        {/* inserir o gráfico aqui */}
+        <Chart1/>
       </LeftColumn>
       <RightColumn>
         <DynamicTable {...bestSellingDishes}/>

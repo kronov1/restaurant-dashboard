@@ -4,12 +4,15 @@ import { PageTitle } from '../../components/PageTitle'
 import profitsData from '../../data/Profits.json'
 import { CardDefault } from '../../components/CardDefault'
 import { CardContainer } from '../../assets/css/componets.styled';
+import { Chart } from '../../components/Chart';
+import { Chart1 } from '../../components/Chart1';
 
 export const Profits = () => {
   const onChange = (key) => {
     console.log(key);
   };
   const { daily, weekly, monthly, yearly } = profitsData
+  
 
   const dataArray = (data) =>{
     return(
@@ -19,6 +22,7 @@ export const Profits = () => {
         <CardDefault title={data.local} subtitle="ganho local" key={data.id}/>
         <CardDefault title={data.annual} subtitle="ganho delivery" key={data.id}/>
       </CardContainer>
+      
     )
     
       
@@ -46,6 +50,7 @@ export const Profits = () => {
       label: `Anual`,
       children: dataArray(yearly),
     },
+    
   ];
 
   
@@ -53,6 +58,7 @@ export const Profits = () => {
     <>
     <PageTitle title="Faturamento"/>
     <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+    <Chart/>
    </>
   )
 }
